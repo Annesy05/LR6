@@ -123,7 +123,24 @@ $ git checkout -b report
 $ git log --pretty=format:"%h %ad %an %s" --date=short
 ```
 
-## 15. История операций
+## 15. Логи команд
+
+```bash
+$ git config --global user.name "Группа 4317 Яковлева А.И."
+$ git config --global user.email "yakovleva2005anna@gmail.com"
+$ git clone https://github.com/Annesy05/LR6
+$ git pull
+$ git log --oneline --graph --all
+$ git log -1
+$ git checkout master
+$ git marge origin/branch1
+$ git branch -d origin/branch1 --remote
+$ git reset --hard HEAD~1
+$ git checkout -b report
+$ git log --pretty=format:"%h %ad %an %s" --date=short
+```
+
+## 16. История операций
 Список истории операций:
 + a291bf4 2024-11-21 Группа 4317 Яковлева А.И. Отчёт закончен
 + e4c7ff0 2024-11-21 Группа 4317 Яковлева А.И. Внесены обновления в отчёт
